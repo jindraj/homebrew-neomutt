@@ -14,6 +14,8 @@ class Neomutt < Formula
   depends_on "autoconf" => :build
   depends_on "automake" => :build
   depends_on "gettext" => :build
+  depends_on "docbook" => :build
+  depends_on "docbook-xsl" => :build
 
   depends_on "openssl"
   depends_on "tokyo-cabinet"
